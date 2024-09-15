@@ -12,6 +12,7 @@ type Position struct { //создание структуры для хранен
 }
 
 var isGame = false //переменная для отслеживания игры
+freionfjiewnfjiernfjkwenjfnejkfejkfnjekn
 
 var massive = [10][10]int{{1, 0, 0, 0, 0, 1, 0, 0, 0, 1}, //сам лабиринт (0 - проход, 1 - стена, 2 - выход)
 	{1, 0, 0, 0, 1, 0, 0, 1, 1, 1},
