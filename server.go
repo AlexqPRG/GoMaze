@@ -168,3 +168,4 @@ func PrintMessage(c *gin.Context, message string) { //функция, котор
 		"message": message,
 	})
 }
+

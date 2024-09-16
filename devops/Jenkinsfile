@@ -1,21 +1,15 @@
-pipeline { 
-    agent any 
-     
-    stages { 
-        stage('Сборка') { 
-            steps { 
-                echo 'Выполняем команды для сборки' 
-            } 
-        } 
-        stage('Тестирование') { 
-            steps { 
-                echo 'Тестируем нашу сборку' 
-            } 
-        } 
-        stage('Развертывание') { 
-            steps { 
-                echo 'Развертываем все это' 
-            } 
-        } 
-    } 
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh 'go build -o myapp'
+            }
+        }
+        stage('Run') {
+            steps {
+               echo 'RUNNING'
+            }
+        }
+    }
 }
