@@ -10,6 +10,7 @@ type Position struct { //создание структуры для хранен
 	column int
 	row    int
 }
+fouewnfjwfjiwnejifnwjifjwinwjei
 
 var isGame = false //переменная для отслеживания игры
 
